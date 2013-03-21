@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    $.getJSON("http://api.twitter.com/1/statuses/user_timeline/BarackObama.json?count=1&include_rts=1&callback=?", function(data) {
+     $("#twitter").html(data[0].user.statuses_count);
+});
+    
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
