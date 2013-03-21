@@ -8,9 +8,18 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="javascript" href="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
     
-    $.getJSON("http://api.twitter.com/1/statuses/user_timeline/BarackObama.json?count=1&include_rts=1&callback=?", function(data) {
-     $("#twitter").html(data[0].user.statuses_count);
+    $( document ).ready(function() {
+    $( "a" ).click(function( event ) {
+        alert( "Thanks for visiting!" );
+           $.getJSON("http://api.twitter.com/1/statuses/user_timeline/BarackObama.json?count=1&include_rts=1&callback=?", function(data) {
+     $("#twitter").html(data[0].user.statuses_count); 
+        
+    });
+});
+
+
 });
     
     <!--[if lt IE 9]>
