@@ -20,6 +20,18 @@
     <![endif]-->
   </head>
   <body>
+  
+     <a href="http://jquery.com/">huhuu</a>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+    $( document ).ready(function() {
+        $( "a" ).click(function( event ) {
+            alert( "The link will no longer take you to jquery.com" );
+            event.preventDefault();
+        });
+    });
+    </script>
+  
     <div class="wrapper">
       <header>
         <h1>Test</h1>
