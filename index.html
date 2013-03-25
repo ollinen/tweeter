@@ -11,12 +11,7 @@
     <link rel="javascript" href="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
    <script>
     $( document ).ready(function() {
-    $( "a" ).click(function( event ) {
         alert( "Thanks for visiting!" );
-           $.getJSON("http://api.twitter.com/1/statuses/user_timeline/BarackObama.json?count=1&include_rts=1&callback=?", function(data) {
-     $("#twitter").html(data[0].user.statuses_count); 
-        
-    });
 });
 
 
