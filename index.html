@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+       <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/liquid-slider-1.1.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./javascript/jquery.easing.1.3.js"></script>
+    <script src="./javascript/jquery.touchSwipe.min.js"></script>
+    <script src="./javascript/jquery.liquid-slider.min.js"></script>  
+    $(function(){
+      $('#slider-id').liquidSlider();
+    });
+    
+    
    <script>
     $( document ).ready(function() {
         $("#target").click(function() {
@@ -44,6 +54,17 @@
       
       
      </section>
+     
+           <div class="liquid-slider"  id="slider-id">
+          <section>
+            <h2 class="title">Panel 1</h2>
+            <p>Content</p>
+          </section>
+          <section>
+            <h2 class="title">Panel 2</h2>
+            <p>Content</p>
+          </section>
+      </div>
       <footer>
         <p>This project is maintained by <a href="https://github.com/ollinen">ollinen</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
