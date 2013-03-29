@@ -23,10 +23,11 @@
       /* Here is the slider using default settings */
       $('#slider-id').liquidSlider();
 
-
+      $('#slider-id').liquidSlider({ hashTitleSelector: "section.title"});
+      
+      
       /* If you want to adjust the settings, you set an option
          as follows:*/
-          hashTitleSelector: "section.title";
 
       /*    $('#slider-id').liquidSlider({
             autoSlide:false,
@@ -79,7 +80,7 @@
            <div class="liquid-slider"  id="slider-id">
                <section title="poop">
                  <div class="title" title="Eka" style="position:absolute; top:50px; left:80px;">
-                  <p><span style="font-size:36px;">The concept of<br />POLITICAL INFLUENCING<br />is evolving.</span> 
+                  <p><span style="font-size:36px;">The concept of<br /><em></em>POLITICAL INFLUENCING</em><br />is evolving.</span> 
                 </div>
                 <div style="background-color:#ffffff; padding-top:180px;"><img src="https://dl.dropbox.com/u/74799696/kuva1.png" /></div>  </p>
                 
