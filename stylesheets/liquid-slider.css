@@ -257,26 +257,26 @@
   width: 30px;
   height: 37px;
   background: url('https://dl.dropbox.com/u/74799696/arrow_right.png') no-repeat top right;
-  margin-top: 250px;
+  margin-top: 350px;
   margin-right: 0px;
   /* Do not edit below this line */
   position:relative;
-  opacity:0.8;
+  opacity:0.6;
 }
 .liquid-slider-wrapper .liquid-nav-left-arrow {
   width: 30px;
   height: 34px;
   background: url('https://dl.dropbox.com/u/74799696/arrow_left.png') no-repeat top left;
-  margin-top: 250px;
+  margin-top: 350px;
   margin-left: 0px;
   /* Do not edit below this line */
   position:relative;
-  opacity:0.8;
+  opacity:0.6;
 }
 .liquid-slider-wrapper .liquid-nav-left-arrow:hover {
   /* Left graphical arrows hover */
   background: url('https://dl.dropbox.com/u/74799696/arrow_left.png') no-repeat bottom left;
-  opacity:0.5;
+  opacity:0.3;
 }
 .liquid-slider-wrapper .liquid-nav-left-arrow:active {
   /* Left graphical arrows click */
@@ -284,7 +284,7 @@
 .liquid-slider-wrapper .liquid-nav-right-arrow:hover {
   /* Right graphical arrows hover */
   background: url('https://dl.dropbox.com/u/74799696/arrow_right.png') no-repeat bottom right;
-  opacity:0.5;
+  opacity:0.3;
 }
 .liquid-slider-wrapper .liquid-nav-right-arrow:active {
   /* Right graphical arrows click */
