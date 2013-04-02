@@ -257,7 +257,7 @@
   width: 30px;
   height: 37px;
   background: url('https://dl.dropbox.com/u/74799696/arrow_right.png') no-repeat top right;
-  margin-top: 40%;
+  margin-top: 20%;
   margin-right: 0px;
   /* Do not edit below this line */
   position:relative;
@@ -267,7 +267,7 @@
   width: 30px;
   height: 34px;
   background: url('https://dl.dropbox.com/u/74799696/arrow_left.png') no-repeat top left;
-  margin-top: 40%;
+  margin-top: 20%;
   margin-left: 0px;
   /* Do not edit below this line */
   position:relative;
